@@ -1,0 +1,28 @@
+.wrapper{
+    display: grid;
+    justify-self: center;
+    align-self: center;
+}
+
+#table{
+    border-spacing: 0;
+}
+
+th{
+    border-bottom: 1px solid gray;
+}
+
+td{
+    padding: 1em;
+    margin: 1em;
+    border-bottom: 1px solid gray;
+}
+
+td:nth-of-type(2){
+    width: 15vw;
+}
+
+td:nth-of-type(5){
+    width: 5vw;
+    height: 5vw;
+}
